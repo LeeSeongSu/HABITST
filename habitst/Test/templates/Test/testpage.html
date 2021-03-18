@@ -1,0 +1,91 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HABITST-TEST</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'Test/main.css' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    
+</head>
+
+<body>
+    <div class="testpage">
+        <div class="test-step">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-warning"
+                    style="width: {{ bar }}%; background-color: wheat; color: gray; font-size: 20px; font-weight: bolder;"
+                    aria-valuenow="{{ bar }}" aria-valuemin="0" aria-valuemax="100">{{ question.id }}/10</div>
+            </div>
+            <div class="test-content">
+                <h3>{{ question.title | linebreaksbr }}</h3>
+
+                <form action="" method="POST" class="answer_button">
+                    {% csrf_token %}
+                    <input type="hidden" name="question_id" value="{{ question.id }}">
+                    <input type="hidden" name="score" value="{{ question.score }}">
+                    <input type="submit" class="answer" name="answer1" value="{{ question.opt1 }}"
+                        style="font-family: 'Noto Serif KR', serif;">
+                </form>
+
+                <form action="" method="POST" class="answer_button">
+                    {% csrf_token %}
+                    <input type="hidden" name="question_id" value="{{ question.id }}">
+                    <input type="hidden" name="score" value="{{ question.score }}">
+                    <input type="submit" class="answer" name="answer2" value="{{ question.opt2 }}"
+                        style="font-family: 'Noto Serif KR', serif;">
+                </form>
+
+                <form action="" method="POST" class="answer_button">
+                    {% csrf_token %}
+                    <input type="hidden" name="question_id" value="{{ question.id }}">
+                    <input type="hidden" name="score" value="{{ question.score }}">
+                    <input type="submit" class="answer" name="answer2" value="{{ question.opt3}}"
+                        style="font-family: 'Noto Serif KR', serif;">
+                </form>
+
+                <form action="" method="POST" class="answer_button">
+                    {% csrf_token %}
+                    <input type="hidden" name="question_id" value="{{ question.id }}">
+                    <input type="hidden" name="score" value="{{ question.score }}">
+                    <input type="submit" class="answer" name="answer2" value="{{ question.opt4 }}"
+                        style="font-family: 'Noto Serif KR', serif;">
+                </form>
+            </div>
+        </div>
+</body>
+
+<script>
+    // css 스크롤 내리면 올라오는 효과
+    function isElementUnderBottom(elem, triggerDiff) {
+        const { top } = elem.getBoundingClientRect();
+        const { innerHeight } = window;
+        return top > innerHeight + (triggerDiff || 0);
+    }
+
+    function handleScroll() {
+        const elems = document.querySelectorAll('.answer');
+        elems.forEach(elem => {
+            if (isElementUnderBottom(elem, -10)) {
+                elem.style.opacity = "0";
+                elem.style.transform = 'translateY(100px)';
+            } else {
+                elem.style.opacity = "1";
+                elem.style.transform = 'translateY(0px)';
+            }
+        })
+    }
+
+    window.addEventListener('scroll', handleScroll);
+</script>
+
+
+</html>

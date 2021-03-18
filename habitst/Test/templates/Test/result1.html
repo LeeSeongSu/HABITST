@@ -1,0 +1,34 @@
+{% load static %}
+{% load social_share %}
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="{% static 'Test/main.css' %}">
+</head>
+
+<body id="Test-result">
+    <div class="test-result-title">
+        <p class="test-result-title-h"><a>{{ tester.name }}님</a>에게 적합한 취미</p>
+        <p>{{ book.name }}</p>
+    </div>
+    <div class="test-result-content">
+        <img src="{{ book.img }}">
+        <p>{{ book.content| linebreaksbr }}</p>
+    </div>
+    <div class="test-result-button">
+        <a href="{% url 'main' %}"><button type="button">홈으로 돌아가기</button></a>
+        <button type="button">{% post_to_facebook object_or_url "페이스북 공유" %}</button>
+    </div>
+</body>
+
+<script>
+    function CopyUrlToClipboard() {
+        var obShareUrl = document.getElementById("Url");
+        obShareUrl.value = "http://baesisi.pythonanywhere.com/";
+        obShareUrl.select();
+        document.execCommand("copy");
+        obShareUrl.blur();
+        alert("테스트 링크가 복사되었습니다!");
+    }
+</script>
+</html>
