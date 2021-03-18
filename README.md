@@ -2,7 +2,7 @@
 
 - ### Main
 
-![main](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\main-1616051176147.PNG)
+![main](https://user-images.githubusercontent.com/48213832/111589631-7345c400-8808-11eb-8a82-00b44791920e.PNG)
 
 - ####  설명
 
@@ -17,7 +17,7 @@
 
 - ### write
 
-![write](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\write.PNG)
+![write](https://user-images.githubusercontent.com/48213832/111589524-4abdca00-8808-11eb-9d72-e6b3d2c96e2d.PNG)
 
 - #### 설명
 
@@ -29,7 +29,7 @@
 
 - ### meeting
 
-![shop](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\shop.PNG)
+![shop](https://user-images.githubusercontent.com/48213832/111589531-4d202400-8808-11eb-8796-0941db3fb261.PNG)
 
 - #### 설명
 
@@ -44,7 +44,7 @@
 
 - ### meetingDetail1
 
-![shop_detail](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\shop_detail.PNG)
+![shop_detail](https://user-images.githubusercontent.com/48213832/111589537-4f827e00-8808-11eb-81f4-fe33f88738f3.PNG)
 
 - #### 설명
 
@@ -60,7 +60,7 @@
 
 - ### meetingDetail2
 
-![shop_detail2](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\shop_detail2.PNG)
+![shop_detail2](https://user-images.githubusercontent.com/48213832/111589566-5ad5a980-8808-11eb-902b-6414d2ac242b.PNG)
 
 - #### 설명
 
@@ -76,7 +76,7 @@
 
 - ### payment
 
-![payment](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\payment.PNG)
+![payment](https://user-images.githubusercontent.com/48213832/111589572-5c06d680-8808-11eb-82c8-f6c39d3ed60d.PNG)
 
 - #### 설명
 
@@ -88,7 +88,7 @@
 
 - ### mypage
 
-![mypage](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\mypage.PNG)
+![mypage](https://user-images.githubusercontent.com/48213832/111589897-cb7cc600-8808-11eb-8c72-49df22f98cc7.PNG)
 
 - #### 설명
 
@@ -103,7 +103,7 @@
 
 - ### chat
 
-![chat](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\chat.PNG)
+![chat](https://user-images.githubusercontent.com/48213832/111589580-5dd09a00-8808-11eb-8800-3416170dfbbc.PNG)
 
 - #### 설명
 
@@ -116,7 +116,7 @@
 
 - ### hobby
 
-![hobby](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\hobby.PNG)
+![hobby](https://user-images.githubusercontent.com/48213832/111589589-61642100-8808-11eb-96e1-cd55b7da6d5b.PNG)
 
 - #### 설명
 
