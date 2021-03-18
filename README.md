@@ -88,7 +88,7 @@
 
 - ### mypage
 
-![hobby](https://user-images.githubusercontent.com/48213832/111589589-61642100-8808-11eb-96e1-cd55b7da6d5b.PNG)
+![mypage](https://user-images.githubusercontent.com/48213832/111589897-cb7cc600-8808-11eb-8c72-49df22f98cc7.PNG)
 
 - #### 설명
 
@@ -116,7 +116,7 @@
 
 - ### hobby
 
-![hobby](C:\Users\oplm1\OneDrive\바탕 화면\GIT파일\habitst\hobby.PNG)
+![hobby](https://user-images.githubusercontent.com/48213832/111589589-61642100-8808-11eb-96e1-cd55b7da6d5b.PNG)
 
 - #### 설명
 
