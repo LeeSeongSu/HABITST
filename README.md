@@ -141,3 +141,8 @@
 - runserver시 no module에 관한 부분은 pip install django_xxxxxx형태로 설치
 
 []: https://www.youtube.com/watch?v=Vm178O1kYVI	"동영상 링크"
+
+[]: https://github.com/LeeSeongSu/HABITST/blob/master/description.pdf	"PDF 링크"
+
+
+
